@@ -80,7 +80,7 @@ Our experimental evaluation answers the research questions below.
 
 __1- RQ1: To what extent are the selected diversity metrics measuring actual diversity in input sets?_
 
-Our objective is to evaluate the reliability of the selected diversity metrics for measuring the real diversity of an image input set in terms of its features, in a controlled manner. 
+*To directly evaluate the capability of the selected metrics to actually measure diversity in input sets, we study how diversity scores change while varying, in a controlled manner, the number of image classes covered by the input sets.*
 
 <img width="929" alt="Diversity" src="https://user-images.githubusercontent.com/58783738/146585778-6dd7c17c-c8f8-4c6c-bda3-316e20e871b9.png">
 
@@ -89,14 +89,14 @@ Our objective is to evaluate the reliability of the selected diversity metrics f
 
 __2- RQ2: How does diversity relate to fault detection?
 
-We aim to study whether higher diversity results in better fault detection. For this purpose, we randomly select, with replacement, 60 samples of sizes 100, 200, 300, 400, 1000. For each sample, we calculate the diversity scores and the number of faults. Finally, we calculate the correlation between diversity scores and the number of faults.
+*We aim to study whether higher diversity results in better fault detection. For this purpose, we randomly select, with replacement, 60 samples of sizes 100, 200, 300, 400, 1000. For each sample, we calculate the diversity scores and the number of faults. Finally, we calculate the correlation between diversity scores and the number of faults.*
 
 -->Outcome: There is a moderate positive correlation between GD and faults in DNNs. GD is more significantly correlated to faults than STD. Consequently, GD should be used as a black-box approach to guide the testing of DNN models.
 
 
 __3- RQ3: How does coverage relate to fault detection?
 
-We aim to study the correlation between state-of-the-art coverage criteria and faults in DNNs.
+*We aim to study the correlation between state-of-the-art coverage criteria and faults in DNNs.*
 
 -->Outcome: In general, there is no significant correlation between DNN coverage and faults for the natural dataset. LSC coverage showed a moderate positive correlation in only one configuration.
 
@@ -107,7 +107,7 @@ We aim to study the correlation between state-of-the-art coverage criteria and f
 
 __4- RQ4: How do diversity and coverage metrics perform in terms of computation time?
 
-In this research question, we aim to compare the computation time of diversity and coverage metrics.
+*In this research question, we aim to compare the computation time of diversity and coverage metrics.*
 
 <img width="914" alt="Computation" src="https://user-images.githubusercontent.com/58783738/146585618-ed8d772c-30f8-4870-a7ef-f5ce283703d4.png">
 
@@ -116,7 +116,7 @@ In this research question, we aim to compare the computation time of diversity a
 
 __5- RQ5. How does diversity relate to coverage?
 
-We want to study in this research question the relationship between diversity and coverage to assess if diverse input sets tend to increase the coverage of DNN models.
+*We want to study in this research question the relationship between diversity and coverage to assess if diverse input sets tend to increase the coverage of DNN models.*
 
 ![image](https://user-images.githubusercontent.com/58783738/146586359-b531c770-354e-4941-a6d5-8006b5f1dcb5.png)
 
