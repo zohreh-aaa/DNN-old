@@ -118,6 +118,9 @@ In this research question, we aim to compare how the calculation times scale wit
 
 ![image](https://user-images.githubusercontent.com/58783738/146564545-855f21d7-3b47-4f43-9d67-293324c4e2cf.png)
 
+
+<img width="914" alt="Computation" src="https://user-images.githubusercontent.com/58783738/146585618-ed8d772c-30f8-4870-a7ef-f5ce283703d4.png">
+
 Outcome:
 
 Both diversity and coverage metrics are not computationally expensive for subsets with size of lower than 500. However, the selected diversity metrics outperform coverage metrics.
@@ -127,7 +130,8 @@ RQ5. How does diversity relate to coverage?
 
 It aims to assess whether diverse input sets contribute to an increase in coverage of DNN models, and conversely, whether increasing coverage will increase diversity.
 
-<img width="914" alt="Computation" src="https://user-images.githubusercontent.com/58783738/146585618-ed8d772c-30f8-4870-a7ef-f5ce283703d4.png">
+
+![image](https://user-images.githubusercontent.com/58783738/146586359-b531c770-354e-4941-a6d5-8006b5f1dcb5.png)
 
 
 Outcome:
