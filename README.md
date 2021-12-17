@@ -16,7 +16,8 @@ DNNs faults are determined and saved for three models (LeNet1,LeNet5 and 12_Conv
 
 Below is the workflow of this part.
 
-![image](https://user-images.githubusercontent.com/58783738/146564128-ab4ef712-635a-489e-b8a7-e764ae1972a8.png)
+![image](https://user-images.githubusercontent.com/58783738/146591442-346cd4ec-44e7-4933-ac08-6e991f78eef8.png)
+
 
 
 * [sadl11](sadl11/) folder contains some parts of [1] for computing the LSC and DSC coverage metrics.
@@ -79,6 +80,7 @@ Research Questions
 Our experimental evaluation answers the research questions below.
 
 __1- RQ1: To what extent are the selected diversity metrics measuring actual diversity in input sets?_
+
 
 *To directly evaluate the capability of the selected metrics to actually measure diversity in input sets, we study how diversity scores change while varying, in a controlled manner, the number of image classes covered by the input sets.*
 
