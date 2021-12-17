@@ -46,11 +46,9 @@ Here a documentation on how to use the replication material should be provided.
 1. First, you need to upload the repo on your google drive and run the codes with https://colab.research.google.com/.
 2.  The main code that you need to run is `Testing_Experimnet.ipynb`. This code covers all the datasets and models that we used in the paper, however if you want to replicate the results for LeNet5 model, you need to change two lines of the code in `sadl11/run.py` related to the loading model and selected layer.
 
-comment out these lines :  `model = load_model("/content/drive/MyDrive/sadl11/model/model_mnist_LeNet5.h5")`
-
-                           `layer_names = ["activation_13"]`
+comment out these lines : 1- `model = load_model("/content/drive/MyDrive/sadl11/model/model_mnist_LeNet5.h5")`
+                          2- `layer_names = ["activation_13"]`
 comment these lines :      `model= load_model("/content/drive/MyDrive/sadl11/model/model_mnist_LeNet1.h5")`
-
                            `layer_names = ["conv2d_1"]`
  
 
