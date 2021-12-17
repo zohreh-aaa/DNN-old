@@ -9,7 +9,13 @@ This paper is implemented in python language with GoogleColab (It is an open-sou
 We have two main .ipynb files the first one `Testing_Experimnet.ipynb` is containing our emprical study and the second one `Fault definition.ipynb` is one of the required step for answering to two of our research questions (RQ2& RQ3).
 
 `Testing_Experimnet.ipynb` contains the implementation of all diversity metrics (GD, STD, NCD) and all RQs.
+
 DNNs faults are determined and saved for three models (LeNet1,LeNet5 and 12_Conv_layer) and two datasets (MNIST and Cifar10) by running `Fault definition.ipynb`.
+
+This is the workflow of this part.
+
+![image](https://user-images.githubusercontent.com/58783738/146555737-9ebbe147-0437-4634-940e-0c9a69512d52.png)
+
 
 * [sadl11](sadl11/) folder contains the original code files for computing the LSC and DSC coverage metrics from following paper.
 > "Guiding Deep Learning System Testing using Surprise Adequacy"
