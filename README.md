@@ -8,7 +8,7 @@ This repository is a companion page for the following paper
 This paper is implemented in python language with GoogleColab (It is an open-source and Jupyter based environment).
 
 
-We have two main .ipynb files the first one `Testing_Experimnet.ipynb` contains our emprical study and the second one `Fault definition.ipynb` is one of the required step for answering to two of our research questions (RQ2 & RQ3).
+We have two main .ipynb files. The first one `Testing_Experimnet.ipynb` contains our empirical study, and the second one `Fault definition.ipynb` is one of the required steps for answering two of our research questions (RQ2 & RQ3).
 
 `Testing_Experimnet.ipynb` contains the implementation of all diversity metrics (GD, STD, NCD) and all RQs.
 
@@ -80,7 +80,6 @@ Research Questions
 Our experimental evaluation answers the research questions below.
 
 1- RQ1: To what extent are the selected diversity metrics measuring actual diversity in input sets?
-
 Our objective is to evaluate the reliability of the selected diversity metrics for measuring the real diversity of an image input set in terms of its features, in a controlled manner. 
 
 <img width="929" alt="Diversity" src="https://user-images.githubusercontent.com/58783738/146585778-6dd7c17c-c8f8-4c6c-bda3-316e20e871b9.png">
