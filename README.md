@@ -91,14 +91,14 @@ __2- RQ2: How does diversity relate to fault detection?
 
 We aim to study whether higher diversity results in better fault detection. For this purpose, we randomly select, with replacement, 60 samples of sizes 100, 200, 300, 400, 1000. For each sample, we calculate the diversity scores and the number of faults. Finally, we calculate the correlation between diversity scores and the number of faults.
 
--->Outcome: There is a moderate positive corre- lation between GD and faults in DNNs. GD is more significantly correlated to faults than STD. Conse- quently, GD should be used as a black-box approach to guide the testing of DNN models.
+-->Outcome: There is a moderate positive correlation between GD and faults in DNNs. GD is more significantly correlated to faults than STD. Consequently, GD should be used as a black-box approach to guide the testing of DNN models.
 
 
 __3- RQ3: How does coverage relate to fault detection?
 
 We aim to study the correlation between state-of-the-art coverage criteria and faults in DNNs.
 
--->Outcome: In general, there is no significant correlation between DNN coverage and faults for natural dataset. LSC coverage showed a moderate positive correlation in only one configuration.
+-->Outcome: In general, there is no significant correlation between DNN coverage and faults for the natural dataset. LSC coverage showed a moderate positive correlation in only one configuration.
 
 (RQ2 and RQ3 results)
 
@@ -125,11 +125,11 @@ We want to study in this research question the relationship between diversity an
 Notes
 -----
 
-1- We used the same recommended settings of LSC and DSC hyperparameters (upper bound, lower bound, number of buckets, etc.) as in the original paper for the diferent models and datasets in our experiments.
+1- We used the same recommended settings of LSC and DSC hyperparameters (upper bound, lower bound, number of buckets, etc.) as in the original paper for the different models and datasets in our experiments.
 
-2- For the LeNet1 model, we use the same setting as LeNet5 model.
+2- For the LeNet1 model, we use the same setting as the LeNet5 model.
 
-3- For speed-up, you can use GPU-based tensorflow by changeing the Colab Runtime.
+3- For speed-up, you can use GPU-based TensorFlow by changing the Colab Runtime.
 
 References
 -----
