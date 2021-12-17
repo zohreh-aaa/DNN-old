@@ -117,7 +117,7 @@ RQ4: How do diversity and coverage metrics perform in terms of computation time?
 
 In this research question, we aim to compare how the calculation times scale with the size of test sets for the selected diversity and coverage metrics.
 
-![image](https://user-images.githubusercontent.com/58783738/146548567-20a248d2-37ff-4e95-9268-d4db00a78493.png)
+![image](https://user-images.githubusercontent.com/58783738/146564545-855f21d7-3b47-4f43-9d67-293324c4e2cf.png)
 
 Outcome:
 
