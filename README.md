@@ -81,8 +81,11 @@ Our experimental evaluation answers the research questions below.
 
 RQ1: To what extent are the selected diversity metrics (GD, STD and NCD) good measures for qualifying an input set? 
 Our objective is to evaluate the reliability of the selected diversity metrics for measuring the real diversity of an image input set in terms of its features, in a controlled manner. The RQ1 algorithm and related plots are available in the paper.
+
+
 Outcome:
 GD and STD performed well in determining data diversity for all datasets examined. Our experiments exclude NCD because it does not measure data diversity accurately in our context.
+
 
 RQ2: How does diversity relate to fault detection?
 
@@ -121,6 +124,9 @@ Both diversity and coverage metrics are not computationally expensive for subset
 RQ5. How does diversity relate to coverage?
 
 It aims to assess whether diverse input sets contribute to an increase in coverage of DNN models, and conversely, whether increasing coverage will increase diversity.
+
+<img width="914" alt="Computation" src="https://user-images.githubusercontent.com/58783738/146585618-ed8d772c-30f8-4870-a7ef-f5ce283703d4.png">
+
 
 Outcome:
 In general, there is no significant correlation between diversity and coverage in DNN models.
