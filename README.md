@@ -17,7 +17,7 @@ This is the workflow of this part.
 ![image](https://user-images.githubusercontent.com/58783738/146556970-5b706a99-e4d4-4925-9fb2-d3d346740a2f.png)
 
 
-* [sadl11](sadl11/) folder contains the original code files for computing the LSC and DSC coverage metrics from following paper.
+* [sadl11](sadl11/) folder contains the original code files for computing the LSC and DSC coverage metrics from the following paper.
 > "Guiding Deep Learning System Testing using Surprise Adequacy"
 
 Requirements
