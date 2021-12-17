@@ -128,4 +128,14 @@ It aims to assess whether diverse input sets contribute to an increase in covera
 Outcome:
 In general, there is no significant correlation between diversity and coverage in DNN models.
 
+Notes
+-----
 
+1- We used the same recommended settings of LSC and DSC hyperparameters (upper bound, lower bound, number of buckets, etc.) as in the original paper for the diferent models and datasets in our experiments.
+
+2- For the LeNet1 model, we use the same setting as LeNet5 model.
+
+3- For speed-up, you can use GPU-based tensorflow by changeing the Colab Runtime.
+
+References
+-----
