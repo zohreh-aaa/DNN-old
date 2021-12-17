@@ -86,9 +86,8 @@ RQ2: How does diversity relate to fault detection?
 
 It is our goal to find out whether higher diversity results in better fault detection. For this purpose, we randomly select, with replacement, 60 samples of sizes 100, 200, 300, 400, 1000. For each sample, we calculate the diversity scores and the number of faults. Finally, we calculate the correlation between diversity scores and the number of faults.
 
-![image](https://user-images.githubusercontent.com/58783738/146550578-09d4d8aa-b87f-4592-a133-8141113d700b.png)
-
 Outcome:
+
 DNN faults and GD have a moderately positive correlation. GD is more significantly correlated to faults than STD.  
 
 
@@ -96,12 +95,30 @@ RQ3: How does coverage relate to fault detection?
 
 We aim to study the correlation between state-of-the-art coverage criteria and faults in DNNs.
 
+
+(RQ2 and RQ3 results)
 ![image](https://user-images.githubusercontent.com/58783738/146548567-20a248d2-37ff-4e95-9268-d4db00a78493.png)
 
 
 Outcome:
+
 In general, there is no significant correlation between DNN coverage and faults for natural dataset. LSC coverage showed a moderate positive correlation in only one configuration.
 
-RQ4: How do diversity and coverage metrics perform in terms of computation time? 
+
+RQ4: How do diversity and coverage metrics perform in terms of computation time?
+
+In this research question, we aim to compare how the calculation times scale with the size of test sets for the selected diversity and coverage metrics.
+
+Outcome:
+
 Both diversity and coverage metrics are not computationally expensive for subsets with size of lower than 500. However, the selected diversity metrics outperform coverage metrics.
+
+
+RQ5. How does diversity relate to coverage?
+
+It aims to assess whether diverse input sets contribute to an increase in coverage of DNN models, and conversely, whether increasing coverage will increase diversity.
+
+Outcome:
+In general, there is no significant correlation between diversity and coverage in DNN models.
+
 
