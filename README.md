@@ -37,8 +37,6 @@ matplotlib
 
 sklearn
 
-tqdm
-
 ---------------
 Here a documentation on how to use the replication material should be provided.
 
@@ -55,6 +53,7 @@ Comment out these lines :
 `layer_names = ["activation_13"]`
 
 And comment these lines :     
+
 `model= load_model("/content/drive/MyDrive/sadl11/model/model_mnist_LeNet1.h5")`
 
 `layer_names = ["conv2d_1"]`
@@ -74,9 +73,31 @@ This is the root directory of the repository. The directory is structured as fol
      |--- RQ3/                             The computation time of each metric for each samples               
   
 
-Usually, replication packages should include:
-* a [src](src/) folder, containing the entirety of the source code used in the study,
-* a [data](data/) folder, containing the raw, intermediate, and final data of the study
-* if needed, a [documentation](documentation/) folder, where additional information w.r.t. this README is provided. 
+Research Questions
+---------------
+Our experimental evaluation answers the research questions below.
 
-In addition, the replication package can include additional data/results (in form of raw data, tables, and/or diagrams) which were not included in the study manuscript.
+RQ1: To what extent are the selected diversity metrics (GD, STD and NCD) good measures for qualifying an input set? 
+Our objective is to evaluate the reliability of the selected diversity metrics for measuring the real diversity of an image input set in terms of its features, in a controlled manner. The RQ1 algorithm and related plots are available in the paper.
+Outcome:
+GD and STD performed well in determining data diversity for all datasets examined. Our experiments exclude NCD because it does not measure data diversity accurately in our context.
+
+RQ2: How does diversity relate to fault detection?
+
+It is our goal to find out whether higher diversity results in better fault detection. For this purpose, we randomly select, with replacement, 60 samples of sizes 100, 200, 300, 400, 1000. For each sample, we calculate the diversity scores and the number of faults. Finally, we calculate the correlation between diversity scores and the number of faults.
+
+Outcome:
+DNN faults and GD have a moderately positive correlation. GD is more significantly correlated to faults than STD.  
+
+
+RQ3: How does coverage relate to fault detection?
+
+We aim to study the correlation between state-of-the-art coverage criteria and faults in DNNs.
+
+![image](https://user-images.githubusercontent.com/58783738/146548567-20a248d2-37ff-4e95-9268-d4db00a78493.png)
+
+
+Outcome:
+In general, there is no significant correlation between DNN coverage and faults for natural dataset. LSC coverage showed a moderate positive correlation in only one configuration.
+
+additional data/results (in form of raw data, tables, and/or diagrams) which were not included in the study manuscript.
