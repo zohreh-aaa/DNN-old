@@ -121,7 +121,6 @@ RQ4: How do diversity and coverage metrics perform in terms of computation time?
 
 In this research question, we aim to compare how the calculation times scale with the size of test sets for the selected diversity and coverage metrics.
 
-![image](https://user-images.githubusercontent.com/58783738/146564545-855f21d7-3b47-4f43-9d67-293324c4e2cf.png)
 
 Outcome:
 
@@ -131,6 +130,9 @@ Both diversity and coverage metrics are not computationally expensive for subset
 RQ5. How does diversity relate to coverage?
 
 It aims to assess whether diverse input sets contribute to an increase in coverage of DNN models, and conversely, whether increasing coverage will increase diversity.
+
+![image](https://user-images.githubusercontent.com/58783738/146564545-855f21d7-3b47-4f43-9d67-293324c4e2cf.png)
+
 
 Outcome:
 In general, there is no significant correlation between diversity and coverage in DNN models.
