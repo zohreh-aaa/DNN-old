@@ -8,10 +8,11 @@ This paper is implemented in python language with GoogleColab (It is an open-sou
 
 We have two main .ipynb files the first one `Testing_Experimnet.ipynb` is containing our emprical study and the second one `Fault definition.ipynb` is one of the required step for answering to two of our research questions (RQ2& RQ3).
 
+`Testing_Experimnet.ipynb` contains the implementation of all diversity metrics (GD, STD, NCD) and all RQs.
+DNNs faults are determined and saved for three models (LeNet1,LeNet5 and 12_Conv_layer) and two datasets (MNIST and Cifar10) by running `Fault definition.ipynb`.
+`sadl11` folder contains the original code files for computing the LSC and DSC coverage metrics from >"Guiding Deep Learning System Testing using Surprise Adequacy" paper.
 
-DNNs faults are determined and saved for three models (LeNet1,LeNet5 and 12_Conv_layer) and two datasets (MNIST and Cifar10) by running "Fault definition.ipynb".
-
-Requirements for Fault definition part
+Requirements
 ---------------
 You need to first install these Libraries:
   - `!pip install umap-learn`
@@ -36,33 +37,32 @@ sklearn
 
 tqdm
 
-n
 ---------------
 Here a documentation on how to use the replication material should be provided.
 
 ### Getting started
 
-1. Provide step-by-step instruction on how to use this repository, including requirements, and installation / script execution steps.
+1. First, you need to upload the repo on your google drive and run the codes with https://colab.research.google.com/.
+2.  The main code that you need to run is `Testing_Experimnet.ipynb`. This code covers all the datasets and models that we used in the paper, however if you want to replicate the results for LeNet5 model, you need to change two lines of the code in `sadl11/run.py` related to the loading model and selected layer.
 
-2. Code snippets should be formatted as follows.
-   - `git clone https://github.com/S2-group/template-replication-package`
-
-3. Links to specific folders / files of the repository can be linked in Markdown, for example this is a link to the [src](src/) folder.
+comment out these lines :  `model = load_model("/content/drive/MyDrive/sadl11/model/model_mnist_LeNet5.h5")`
+                           `layer_names = ["activation_13"]`
+comment these lines :      `model= load_model("/content/drive/MyDrive/sadl11/model/model_mnist_LeNet1.h5")`
+                           `layer_names = ["conv2d_1"]`
+ 
 
 Repository Structure
 ---------------
 This is the root directory of the repository. The directory is structured as follows:
 
-    template-replication-package
+    Replication-package
      .
      |
-     |--- src/                             Source code used in the thesis / paper
+     |--- sadl11/model/                    Pre-trained models used in the paper
      |
-     |--- documentation/                   Further structured documentation of the replication package content
+     |--- RQ2-2/Correlation/               Random samples (60 subsets with sizes of 100,...,1000) to replicate the paper's results
      |
-     |--- data/                            Data used in the thesis / paper 
-            |
-            |--- additional_subfolder/     Subfolders should be further nested to increase readability                 
+     |--- RQ3/                             The computation time of each metric for each samples               
   
 
 Usually, replication packages should include:
