@@ -79,7 +79,7 @@ Research Questions
 ---------------
 Our experimental evaluation answers the research questions below.
 
-__1- RQ1: To what extent are the selected diversity metrics measuring actual diversity in input sets?_
+__1- RQ1: To what extent are the selected diversity metrics measuring actual diversity in input sets?
 
 
 *To directly evaluate the capability of the selected metrics to actually measure diversity in input sets, we study how diversity scores change while varying, in a controlled manner, the number of image classes covered by the input sets.*
