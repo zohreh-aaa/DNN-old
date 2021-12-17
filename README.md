@@ -10,7 +10,8 @@ We have two main .ipynb files the first one `Testing_Experimnet.ipynb` is contai
 
 `Testing_Experimnet.ipynb` contains the implementation of all diversity metrics (GD, STD, NCD) and all RQs.
 DNNs faults are determined and saved for three models (LeNet1,LeNet5 and 12_Conv_layer) and two datasets (MNIST and Cifar10) by running `Fault definition.ipynb`.
-`sadl11` folder contains the original code files for computing the LSC and DSC coverage metrics from >"Guiding Deep Learning System Testing using Surprise Adequacy" paper.
+`sadl11` folder contains the original code files for computing the LSC and DSC coverage metrics from 
+> "Guiding Deep Learning System Testing using Surprise Adequacy" paper.
 
 Requirements
 ---------------
