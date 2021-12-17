@@ -139,5 +139,6 @@ Notes
 
 References
 -----
-1- * [Surprise Adequacy](https://github.com/coinse/sadl)
-2- * [DBCV](https://github.com/christopherjenness/DBCV)
+1- [Surprise Adequacy](https://github.com/coinse/sadl)
+
+2- [DBCV](https://github.com/christopherjenness/DBCV)
