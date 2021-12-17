@@ -95,19 +95,21 @@ RQ3: How does coverage relate to fault detection?
 
 We aim to study the correlation between state-of-the-art coverage criteria and faults in DNNs.
 
-
-(RQ2 and RQ3 results)
-![image](https://user-images.githubusercontent.com/58783738/146548567-20a248d2-37ff-4e95-9268-d4db00a78493.png)
-
-
 Outcome:
 
 In general, there is no significant correlation between DNN coverage and faults for natural dataset. LSC coverage showed a moderate positive correlation in only one configuration.
+
+(RQ2 and RQ3 results)
+
+![image](https://user-images.githubusercontent.com/58783738/146554654-d3319136-3933-46a0-91d8-117a05ff7304.png)
 
 
 RQ4: How do diversity and coverage metrics perform in terms of computation time?
 
 In this research question, we aim to compare how the calculation times scale with the size of test sets for the selected diversity and coverage metrics.
+
+
+![image](https://user-images.githubusercontent.com/58783738/146548567-20a248d2-37ff-4e95-9268-d4db00a78493.png)
 
 Outcome:
 
