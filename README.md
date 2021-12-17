@@ -2,6 +2,7 @@
 
 This repository is a companion page for the following paper 
 > "Black-Box Testing of Deep Neural Networks through Test Case Diversity".
+> Zohreh Aghababaeyan (uOttawa, Canada), Manel Abdellatif (uOttawa, Canada), Lionel Briand (uOttawa, Canada), Ramesh S (General Motors, USA), and Mojtaba Bagherzadeh (uOttawa, Canada)
 
 This paper is implemented in python language with GoogleColab (It is an open-source and Jupyter based environment).
 
