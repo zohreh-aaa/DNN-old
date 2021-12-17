@@ -6,7 +6,7 @@ This repository is a companion page for the following paper
 This paper is implemented in python language with GoogleColab (It is an open-source and Jupyter based environment).
 
 
-We have two main .ipynb files the first one (Testing_Experimnet.ipynb) is containing our emprical study and the second one "Fault definition.ipynb" is one of the required step for answering to two of our research questions (RQ2& RQ3).
+We have two main .ipynb files the first one `Testing_Experimnet.ipynb` is containing our emprical study and the second one `Fault definition.ipynb` is one of the required step for answering to two of our research questions (RQ2& RQ3).
 
 
 DNNs faults are determined and saved for three models (LeNet1,LeNet5 and 12_Conv_layer) and two datasets (MNIST and Cifar10) by running "Fault definition.ipynb".
