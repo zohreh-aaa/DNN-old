@@ -139,4 +139,4 @@ Notes
 
 References
 -----
-* [https://github.com/coinse/sadl](sadl11/)
+* [Surprise Adequacy](https://github.com/coinse/sadl)
