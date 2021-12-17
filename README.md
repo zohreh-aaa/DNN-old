@@ -14,11 +14,10 @@ We have two main .ipynb files the first one `Testing_Experimnet.ipynb` contains 
 
 DNNs faults are determined and saved for three models (LeNet1,LeNet5 and 12_Conv_layer) and two datasets (MNIST and Cifar10) by running `Fault definition.ipynb`.
 
-This is the workflow of this part.
+Below is the workflow of this part.
 
 ![image](https://user-images.githubusercontent.com/58783738/146564128-ab4ef712-635a-489e-b8a7-e764ae1972a8.png)
 
-Part of the implementation is from [1] and [2] 
 
 * [sadl11](sadl11/) folder contains some parts of [1] for computing the LSC and DSC coverage metrics.
 
