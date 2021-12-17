@@ -50,16 +50,16 @@ To do so please:
 
 Change these lines :
 
+`model= load_model("/content/drive/MyDrive/sadl11/model/model_mnist_LeNet1.h5")`
+
+`layer_names = ["conv2d_1"]`
+
+With these two lines :   
+
 `model = load_model("/content/drive/MyDrive/sadl11/model/model_mnist_LeNet5.h5")`
 
 `layer_names = ["activation_13"]`
 
-With these two lines :     
-
-`model= load_model("/content/drive/MyDrive/sadl11/model/model_mnist_LeNet1.h5")`
-
-`layer_names = ["conv2d_1"]`
- 
 
 Repository Structure
 ---------------
@@ -68,7 +68,7 @@ This is the root directory of the repository. The directory is structured as fol
     Replication-package
      .
      |
-     |--- sadl11/model/                    Pre-trained models used in the paper
+     |--- sadl11/model/                    Pre-trained models used in the paper (LeNet-1, LeNet-5 and 12-Layer ConvNet)
      |
      |--- RQ2-2/Correlation/               Random samples (60 subsets with sizes of 100,...,1000) to replicate the paper's results
      |
