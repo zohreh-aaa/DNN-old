@@ -18,7 +18,7 @@ This is the workflow of this part.
 
 Part of the implementation is from [1] and [2] 
 
-* [sadl11](sadl11/) folder contains the original code files for computing the LSC and DSC coverage metrics from the following paper.
+* [sadl11](sadl11/) folder contains some part of the original code files [1] for computing the LSC and DSC coverage metrics.
 
 Requirements
 ---------------
@@ -139,4 +139,5 @@ Notes
 
 References
 -----
-* [Surprise Adequacy](https://github.com/coinse/sadl)
+1- * [Surprise Adequacy](https://github.com/coinse/sadl)
+2- * [DBCV](https://github.com/christopherjenness/DBCV)
