@@ -1,3 +1,14 @@
+
+#@inproceedings{Kim2019aa,
+# 	Author = {Jinhan Kim and Robert Feldt and Shin Yoo},
+# 	Booktitle = {Proceedings of the 41th International Conference on Software Engineering},	
+# 	Pages = {1039-1049},
+# 	Publisher = {IEEE Press},
+# 	Series = {ICSE 2019},
+# 	Title = {Guiding Deep Learning System Testing using Surprise Adequacy},
+# 	Year = {2019}}
+# }
+
 import numpy as np
 import time
 import argparse
