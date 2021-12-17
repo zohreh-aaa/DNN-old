@@ -16,7 +16,7 @@ DNNs faults are determined and saved for three models (LeNet1,LeNet5 and 12_Conv
 
 This is the workflow of this part.
 
-![image](https://user-images.githubusercontent.com/58783738/146563862-579f5227-450d-432d-a1ae-9c27c10f1781.png)
+![image](https://user-images.githubusercontent.com/58783738/146564128-ab4ef712-635a-489e-b8a7-e764ae1972a8.png)
 
 Part of the implementation is from [1] and [2] 
 
@@ -109,7 +109,8 @@ In general, there is no significant correlation between DNN coverage and faults 
 
 (RQ2 and RQ3 results)
 
-![image](https://user-images.githubusercontent.com/58783738/146554654-d3319136-3933-46a0-91d8-117a05ff7304.png)
+
+![image](https://user-images.githubusercontent.com/58783738/146563862-579f5227-450d-432d-a1ae-9c27c10f1781.png)
 
 
 RQ4: How do diversity and coverage metrics perform in terms of computation time?
