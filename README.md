@@ -85,6 +85,7 @@ GD and STD performed well in determining data diversity for all datasets examine
 RQ2: How does diversity relate to fault detection?
 
 It is our goal to find out whether higher diversity results in better fault detection. For this purpose, we randomly select, with replacement, 60 samples of sizes 100, 200, 300, 400, 1000. For each sample, we calculate the diversity scores and the number of faults. Finally, we calculate the correlation between diversity scores and the number of faults.
+![image](https://user-images.githubusercontent.com/58783738/146548737-ffd224dd-b1e3-46b1-ad0c-c41b0532aae9.png)
 
 Outcome:
 DNN faults and GD have a moderately positive correlation. GD is more significantly correlated to faults than STD.  
