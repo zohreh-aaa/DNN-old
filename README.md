@@ -40,7 +40,7 @@ The code was developed and tested based on the following environment:
 - sklearn
 
 ---------------
-Here a documentation on how to use this replication package.
+Here is a documentation on how to use this replication package.
 
 ### Getting started
 
