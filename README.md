@@ -14,7 +14,7 @@ DNNs faults are determined and saved for three models (LeNet1,LeNet5 and 12_Conv
 
 This is the workflow of this part.
 
-![image](https://user-images.githubusercontent.com/58783738/146555737-9ebbe147-0437-4634-940e-0c9a69512d52.png)
+![image](https://user-images.githubusercontent.com/58783738/146556970-5b706a99-e4d4-4925-9fb2-d3d346740a2f.png)
 
 
 * [sadl11](sadl11/) folder contains the original code files for computing the LSC and DSC coverage metrics from following paper.
@@ -113,7 +113,6 @@ In general, there is no significant correlation between DNN coverage and faults 
 RQ4: How do diversity and coverage metrics perform in terms of computation time?
 
 In this research question, we aim to compare how the calculation times scale with the size of test sets for the selected diversity and coverage metrics.
-
 
 ![image](https://user-images.githubusercontent.com/58783738/146548567-20a248d2-37ff-4e95-9268-d4db00a78493.png)
 
