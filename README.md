@@ -102,4 +102,6 @@ We aim to study the correlation between state-of-the-art coverage criteria and f
 Outcome:
 In general, there is no significant correlation between DNN coverage and faults for natural dataset. LSC coverage showed a moderate positive correlation in only one configuration.
 
-additional data/results (in form of raw data, tables, and/or diagrams) which were not included in the study manuscript.
+RQ4: How do diversity and coverage metrics perform in terms of computation time? 
+Both diversity and coverage metrics are not computationally expensive for subsets with size of lower than 500. However, the selected diversity metrics outperform coverage metrics.
+
