@@ -16,7 +16,7 @@ DNNs faults are determined and saved for three models (LeNet1,LeNet5 and 12_Conv
 
 This is the workflow of this part.
 
-![image](https://user-images.githubusercontent.com/58783738/146563044-1c3d24f3-e68a-4c7b-b8ec-a7bac78ee0e6.png)
+![image](https://user-images.githubusercontent.com/58783738/146563862-579f5227-450d-432d-a1ae-9c27c10f1781.png)
 
 Part of the implementation is from [1] and [2] 
 
