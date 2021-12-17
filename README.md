@@ -82,6 +82,8 @@ Our experimental evaluation answers the research questions below.
 RQ1: To what extent are the selected diversity metrics (GD, STD and NCD) good measures for qualifying an input set? 
 Our objective is to evaluate the reliability of the selected diversity metrics for measuring the real diversity of an image input set in terms of its features, in a controlled manner. The RQ1 algorithm and related plots are available in the paper.
 
+<img width="929" alt="Diversity" src="https://user-images.githubusercontent.com/58783738/146585778-6dd7c17c-c8f8-4c6c-bda3-316e20e871b9.png">
+
 
 Outcome:
 GD and STD performed well in determining data diversity for all datasets examined. Our experiments exclude NCD because it does not measure data diversity accurately in our context.
