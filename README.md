@@ -85,8 +85,7 @@ Our objective is to evaluate the reliability of the selected diversity metrics f
 <img width="929" alt="Diversity" src="https://user-images.githubusercontent.com/58783738/146585778-6dd7c17c-c8f8-4c6c-bda3-316e20e871b9.png">
 
 
-Outcome:
-GD and STD performed well in determining data diversity for all datasets examined. Our experiments exclude NCD because it does not measure data diversity accurately in our context.
+-->Outcome:  GD and STD performed well in determining data diversity for all datasets examined. Our experiments exclude NCD because it does not measure data diversity accurately in our context.
 
 
 RQ2: How does diversity relate to fault detection?
@@ -108,7 +107,6 @@ In general, there is no significant correlation between DNN coverage and faults 
 
 (RQ2 and RQ3 results)
 
-
 ![image](https://user-images.githubusercontent.com/58783738/146563862-579f5227-450d-432d-a1ae-9c27c10f1781.png)
 
 
@@ -118,9 +116,7 @@ In this research question, we aim to compare how the calculation times scale wit
 
 <img width="914" alt="Computation" src="https://user-images.githubusercontent.com/58783738/146585618-ed8d772c-30f8-4870-a7ef-f5ce283703d4.png">
 
-Outcome:
-
-Both diversity and coverage metrics are not computationally expensive for subsets with size of lower than 500. However, the selected diversity metrics outperform coverage metrics.
+--> Outcome: Both diversity and coverage metrics are not computationally expensive for subsets with size of lower than 500. However, the selected diversity metrics outperform coverage metrics.
 
 
 RQ5. How does diversity relate to coverage?
@@ -131,8 +127,7 @@ It aims to assess whether diverse input sets contribute to an increase in covera
 ![image](https://user-images.githubusercontent.com/58783738/146586359-b531c770-354e-4941-a6d5-8006b5f1dcb5.png)
 
 
-Outcome:
-In general, there is no significant correlation between diversity and coverage in DNN models.
+--> Outcome: In general, there is no significant correlation between diversity and coverage in DNN models.
 
 Notes
 -----
