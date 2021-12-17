@@ -88,7 +88,7 @@ Our experimental evaluation answers the research questions below.
 RQ1: To what extent are the selected diversity metrics (GD, STD and NCD) good measures for qualifying an input set? 
 Our objective is to evaluate the reliability of the selected diversity metrics for measuring the real diversity of an image input set in terms of its features, in a controlled manner. The RQ1 algorithm and related plots are available in the paper.
 
-![image](https://user-images.githubusercontent.com/58783738/146584167-9c91660d-3000-4702-ad4e-08deb059f512.png)
+![image](https://user-images.githubusercontent.com/58783738/146584404-675254d9-3157-47b6-9a24-0b2dc5df934f.png)
 
 
 Outcome:
@@ -121,6 +121,7 @@ RQ4: How do diversity and coverage metrics perform in terms of computation time?
 
 In this research question, we aim to compare how the calculation times scale with the size of test sets for the selected diversity and coverage metrics.
 
+![image](https://user-images.githubusercontent.com/58783738/146584167-9c91660d-3000-4702-ad4e-08deb059f512.png)
 
 Outcome:
 
