@@ -79,7 +79,7 @@ Research Questions
 ---------------
 Our experimental evaluation answers the research questions below.
 
-__1- RQ1: To what extent are the selected diversity metrics measuring actual diversity in input sets?
+_**1- RQ1: To what extent are the selected diversity metrics measuring actual diversity in input sets?**_
 
 
 *To directly evaluate the capability of the selected metrics to actually measure diversity in input sets, we study how diversity scores change while varying, in a controlled manner, the number of image classes covered by the input sets.*
@@ -89,14 +89,14 @@ __1- RQ1: To what extent are the selected diversity metrics measuring actual div
 -->Outcome:  GD and STD showed good performance in measuring actual data diversity in all the studied datasets. This is not the case of NCD, which we exclude from the following experiments.
 
 
-__2- RQ2: How does diversity relate to fault detection?
+_**2- RQ2: How does diversity relate to fault detection?**_
 
 *We aim to study whether higher diversity results in better fault detection. For this purpose, we randomly select, with replacement, 60 samples of sizes 100, 200, 300, 400, 1000. For each sample, we calculate the diversity scores and the number of faults. Finally, we calculate the correlation between diversity scores and the number of faults.*
 
 -->Outcome: There is a moderate positive correlation between GD and faults in DNNs. GD is more significantly correlated to faults than STD. Consequently, GD should be used as a black-box approach to guide the testing of DNN models.
 
 
-__3- RQ3: How does coverage relate to fault detection?
+_**3- RQ3: How does coverage relate to fault detection?**_
 
 *We aim to study the correlation between state-of-the-art coverage criteria and faults in DNNs.*
 
@@ -107,7 +107,7 @@ __3- RQ3: How does coverage relate to fault detection?
 ![image](https://user-images.githubusercontent.com/58783738/146563862-579f5227-450d-432d-a1ae-9c27c10f1781.png)
 
 
-__4- RQ4: How do diversity and coverage metrics perform in terms of computation time?
+_**4- RQ4: How do diversity and coverage metrics perform in terms of computation time?**_
 
 *In this research question, we aim to compare the computation time of diversity and coverage metrics.*
 
@@ -116,7 +116,7 @@ __4- RQ4: How do diversity and coverage metrics perform in terms of computation 
 --> Outcome: Both diversity and coverage metrics are not computationally expensive. However, the selected diversity metrics outperform coverage metrics.
 
 
-__5- RQ5. How does diversity relate to coverage?
+_**5- RQ5. How does diversity relate to coverage?**_
 
 *We want to study in this research question the relationship between diversity and coverage to assess if diverse input sets tend to increase the coverage of DNN models.*
 
